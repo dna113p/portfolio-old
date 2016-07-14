@@ -9,14 +9,14 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.min.js',
-    publicPath: '/'
+    publicPath: ''
   },
 
-  plugins: [
-    new webpack.optimize.UglifyJsPlugin({
-      compress: { warnings: false }
-    })
-  ],
+  //plugins: [
+    //new webpack.optimize.UglifyJsPlugin({
+      //compress: { warnings: false }
+    //})
+  //],
 
   module: {
     loaders: [{
