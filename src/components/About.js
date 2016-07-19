@@ -21,7 +21,6 @@ class About extends Component {
 
 export default Radium(About);
 var styles = {
-  fontFamily: '"Raleway", sans-serif',
 
   marginTop: '2rem',
   display: 'flex',
