@@ -3,7 +3,7 @@ import React, { PropTypes, Component } from 'react';
 class BannerImage extends Component {
 
   render() {
-    var path = require('../img/mountains.jpg');
+    var path = require('../assets/boats.jpg');
     return (
       <div>
       <div style={fullWidth}>
@@ -19,7 +19,7 @@ export default BannerImage;
 
 var styles = {
   img: {
-    height: '100vh',
+    height: '110vh',
   }
 }
 

@@ -40,7 +40,7 @@ var styles = {
   },
 
   img: {
-    borderRadius: '.5em',
+    borderRadius: '50%',
     transition: 'all 0.5s cubic-bezier(.25,.8,.25,1)',
     width: '100%',
     boxShadow: '0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)',
@@ -55,7 +55,6 @@ var styles = {
     ':hover': {
       boxShadow: '0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)',
     }
-
   }
 }
 

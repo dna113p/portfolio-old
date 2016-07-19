@@ -10,7 +10,7 @@ import projectData from './projectData.js';
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <div style={{fontFamily: '"Exo", sans-serif'}}>
         <Header />
         <div style={background}>
             <div style={section}>
@@ -27,17 +27,16 @@ export default class App extends Component {
 }
 
 var background = {
-  backgroundColor: '#fff',
+  backgroundColor: '#FEFEFE',
   width: '100vw',
   display: 'flex',
   flexDirection: 'column',
-  boxShadow: '0 -1px 3px rgba(0,0,0,0.12), 0 -1px 2px rgba(0,0,0,0.24)',
   alignItems: 'center'
 }
 
 var section = {
+  marginBottom: '3em',
   boxSizing: 'border-box',
   padding: '5px',
-  marginBottom: '300px',
   maxWidth: '1200px'
 }

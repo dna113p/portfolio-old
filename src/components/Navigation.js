@@ -55,24 +55,31 @@ class Navigation extends Component {
 export default Radium(Navigation);
 
 var styles = {
+  //stretches nav background to edges
   containerMove: {
+    zIndex: '100',
     position: 'absolute',
-    bottom: '5%',
-    backgroundColor: '#111',
+    bottom: '0',
+    backgroundColor: '#222',
     boxShadow: '0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23)',
-    width: '100vw'
+    width: '100vw',
+    height: '15vh'
   },
 
+//fixes nav to top
   containerFixed: {
+    zIndex: '100',
     position: 'fixed',
     top: '0',
-    backgroundColor: '#111',
-  boxShadow: '0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23)',
-    width: '100vw'
+    backgroundColor: '#222',
+    boxShadow: '0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23)',
+    width: '100vw',
+    height: 'auto'
   },
 
+//Inner div container
   container: {
-    color: '#fff',
+    color: '#EEE',
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
@@ -80,11 +87,12 @@ var styles = {
     margin: '0 auto 0 auto',
     width: '100vw',
     maxWidth: '1200px',
+    height: '100%',
 
-    fontSize: '1.75rem',
+    fontSize: '2rem',
 
     '@media (max-width: 600px)': {
-      fontSize : '1.4rem'
+      fontSize : '2rem'
     }
   },
 
@@ -94,7 +102,6 @@ var styles = {
   },
 
   link: {
-    height: '100%',
     textDecoration: 'none',
     color: '#EEE',
     ':hover': {

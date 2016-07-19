@@ -16,8 +16,8 @@ export default Chip;
 
 var styles = {
   base: {
-    backgroundColor: 'teal',
-    color: '#EEE',
+    backgroundColor: '#009688',
+    color: '#ddd',
     padding: '.3rem 1rem',
     margin: '.1rem',
     borderRadius: '2rem',

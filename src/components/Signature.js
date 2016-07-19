@@ -24,13 +24,13 @@ var styles = {
   right: '0',
   top: '20vh',
   height: '40vh',
-  width: '90%',
+  width: '95%',
   maxWidth: '1200px',
 
 }
 
 var path = {
-  fill: '#000',
-  stroke: '#000',
+  fill: '#222',
+  stroke: '#222',
 }
 

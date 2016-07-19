@@ -46,7 +46,7 @@ var styles = {
 
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'space-between'
+    justifyContent: 'space-around'
   },
 
   header : {
@@ -64,7 +64,7 @@ var styles = {
   link: {
     fontSize: '1.75rem',
     alignItems: 'center',
-    color: '#222',
+    color: '#009688',
     textDecoration: 'none',
     fontFamily: '"Raleway", sans-serif'
   },

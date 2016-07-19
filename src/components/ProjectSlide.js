@@ -33,9 +33,10 @@ var styles = {
     height: '0px',
     overflow: 'hidden',
 
-    backgroundColor: '#F5F5F5',
+    backgroundColor: '#222',
+    color: '#DDD',
 
-    boxShadow: 'inset 0 10px 20px rgba(0,0,0,0.19),inset 0 6px 6px rgba(0,0,0,0.23), 0 -1px 3px rgba(0,0,0,0.12), 0 -1px 2px rgba(0,0,0,0.24)',
+    boxShadow: 'inset 0 1px 3px rgba(0,0,0,0.12),inset 0 1px 2px rgba(0,0,0,0.24)',
     transition: 'all 0.5s cubic-bezier(.25,.8,.25,1)',
   },
 

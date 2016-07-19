@@ -30,8 +30,12 @@ class Projects extends Component {
     return (
       <div>
         <a name={'projects'}>
-          <h2 style={{textAlign: 'center'}}>Projects</h2>
         </a>
+        <div style={heading} >
+          <div style={{height: '3px', backgroundColor: 'black', flexGrow: '1'}}></div>
+          <h2 style={{margin: '1rem'}}>Projects</h2>
+          <div style={{height: '3px', backgroundColor: 'black', flexGrow: '4'}}></div>
+        </div>
         <div style={styles}>
           {this.props.data.map((project,i)=> {
             return(
@@ -58,4 +62,11 @@ var styles = {
   display: 'flex',
   flexWrap: 'wrap',
   justifyContent: 'center'
+}
+
+var heading = {
+  width: '100%',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'space-between'
 }

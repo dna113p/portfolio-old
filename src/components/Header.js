@@ -20,5 +20,5 @@ class Header extends Component {
 export default Header;
 
 var styles = {
-  height: '120vh',
+  height: '100vh',
 }
