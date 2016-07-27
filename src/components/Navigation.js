@@ -33,15 +33,16 @@ class Navigation extends Component {
         <div style={styles.container}>
 
           <a key={1} href={"#projects"} style={styles.link} >Projects</a>
+          <a key={2} href={"http://dna113p.github.io/resume2016"} style={styles.link} >Resume</a>
 
           <div style={styles.socialIcons}>
-            <a key={2} href={"http://github.com/dna113p"} target={"none"} style={styles.link}>
+            <a key={3} href={"http://github.com/dna113p"} target={"none"} style={styles.link}>
               <i className={"fa fa-github"} ></i>
             </a>
 
             <div style={{width:'10px'}}></div>
 
-            <a key={3} href={"http://linkedin.com/in/dna113p"} target={"none"} style={styles.link}>
+            <a key={4} href={"http://linkedin.com/in/dna113p"} target={"none"} style={styles.link}>
               <i className={"fa fa-linkedin"}></i>
             </a>
 
