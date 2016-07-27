@@ -8,6 +8,22 @@ export default [
     "description" : "You're browsing it right now. Click the live link for portfolioception. Built proudly with react.js by yours truly.",
     "keywords": "react.js javascript"
   },
+  {
+    "title" : "Markdown Notes",
+    "liveUrl" : "http://dna113p.github.io/markdown-notes",
+    "codeUrl" : "http://github.com/dna113p/markdown-notes",
+    "imgUrl" : require('./assets/markdown-notes-icon.png'),
+    "description" : "A small markdown note taking app powered by React.",
+    "keywords": "react.js javascript"
+  },
+  {
+    "title" : "Html Resume",
+    "liveUrl" : "http://dna113p.github.io/resume2016",
+    "codeUrl" : "http://github.com/dna113p/resume2016",
+    "imgUrl" : require('./assets/resume-icon.png'),
+    "description" : "My resume built in HTML with a material design theme.",
+    "keywords": "html css material"
+  },
 
   {
     "title" : "OWSense",
