@@ -9,6 +9,14 @@ export default [
     "keywords": "react.js javascript"
   },
   {
+    "title" : "Color Chat",
+    "liveUrl" : "https://color-chat.herokuapp.com/",
+    "codeUrl" : "http://github.com/dna113p/color-chat",
+    "imgUrl" : require('./assets/color-chat-icon.png'),
+    "description" : "A very simple chat application using React.js for the client and socket.io for the server. Hosted on heroku.",
+    "keywords": "react.js socket.io express node.js heroku javascript"
+  },
+  {
     "title" : "Markdown Notes",
     "liveUrl" : "http://dna113p.github.io/markdown-notes",
     "codeUrl" : "http://github.com/dna113p/markdown-notes",
